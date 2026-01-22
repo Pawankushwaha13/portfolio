@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">Pawan Kumar</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects-experience">Projects & Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle">
+    🌙
+</button>
+
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Hi,<br>I'm <span class="highlight">Pawan Kumar</span><br>Full Stack Development</h1>
+                <a href="#contact" class="cta-button" style="text-decoration: none; display: inline-block;">Contact</a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pawan-kumar-5046832a8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Pawankushwaha13" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:pawankumar202987@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="image-bg"></div>
+                <img src="/images/profile.png" alt="Profile Image" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-grid">
+                <!-- Personal Info Card -->
+                <div class="about-card personal-info">
+                    <div class="card-header">
+                        <i class="fas fa-user-circle"></i>
+                        <h3>Who I Am</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>A passionate Full Stack Development enthusiast with a strong foundation in front-end and back-end technologies. Interested in building dynamic, responsive web applications and continuously improving skills using modern development tools and frameworks.</p>
+                    </div>
+                </div>
+
+                <!-- Mission Card -->
+                <div class="about-card mission">
+                    <div class="card-header">
+                        <i class="fas fa-rocket"></i>
+                        <h3>My Mission</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>To work as a Full Stack Developer where I can design, develop, and maintain scalable web applications using modern frontend and backend technologies while continuously improving my coding and problem-solving skills.</p>
+                    </div>
+                </div>
+
+                <!-- Key Facts -->
+                <div class="about-card facts">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Key Highlights</h3>
+                    </div>
+                    <div class="card-content facts-grid">
+                        <div class="fact-item">
+                            <span class="fact-number">10+</span>
+                            <span class="fact-label">Projects Completed</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">15+</span>
+                            <span class="fact-label">Certifications</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">100+</span>
+                            <span class="fact-label">CTF Challenges</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">5+</span>
+                            <span class="fact-label">Hackathons</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interests -->
+                <div class="about-card interests">
+                    <div class="card-header">
+                        <i class="fas fa-heart"></i>
+                        <h3>My Interests</h3>
+                    </div>
+                    <div class="card-content interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Full Stack Developer </span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Softwer Developer</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Experience Section -->
+    <section id="projects-experience" class="projects-experience">
+        <h2>Projects & Experience</h2>
+        <div class="section-content">
+            <!-- Projects Subsection -->
+            <div class="subsection">
+                <h3 class="subsection-title">Featured Projects</h3>
+                <div class="cards-container">
+                    <!-- Project Card 1 -->
+                    <div class="card">
+                        <div class="card-info">
+                            <h3>Local Finder Technician</h3>
+                            <p class="card-description">
+                                A MERN stack–based web application that allows users to search, book, and verify local technicians. The system ensures smooth user interaction with secure backend APIs and real-time data handling.
+                            </p>
+                            <div class="features-list">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Search and filter local technicians by service category</li>
+                                    <li><i class="fas fa-check-circle"></i> User-friendly service booking system</li>
+                                    <li><i class="fas fa-check-circle"></i> Technician profile verification for trusted services</li>
+                                    <li><i class="fas fa-check-circle"></i> Real-time booking status updates</li>
+                                    <li><i class="fas fa-check-circle"></i> Secure backend APIs for data handling</li>
+                                    <li><i class="fas fa-check-circle"></i> Responsive UI for mobile and desktop users</li>
+                                </ul>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span>MERN</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/projects/local technician finder.png" alt="Local Technician Finder">
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="card">
+                        <div class="card-info">
+                            <h3>College / University Admission Lead Generation System</h3>
+                            <p class="card-description">
+                                A Full Stack web application developed to manage college admission inquiries and generate student leads efficiently. 
+                                The project includes multiple university landing pages where students can view course details, fees, placements, 
+                                and submit admission inquiries through a lead form.
+                            </p>
+                            <div class="features-list">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Responsive college landing pages for student admissions</li>
+                                    <li><i class="fas fa-check-circle"></i> Real-time lead submission using secure backend APIs</li>
+                                    <li><i class="fas fa-check-circle"></i> Course, fees, and placement information display</li>
+                                    <li><i class="fas fa-check-circle"></i> Admission inquiry form with validation</li>
+                                    <li><i class="fas fa-check-circle"></i> Lead data storage and API-based data handling</li>
+
+                                </ul>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Javascript</span>
+                                    <span>Node.js</span>
+                                    <span>React.js</span>
+                                    <span>Express.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/projects/college landing page.png" alt="University Landing pages">
+                        </div>
+                    </div>
+
+
+                    <!-- Project Card 3 -->
+                    <div class="card">
+                        <div class="card-info">
+                            <h3>Online Shopping portal</h3>
+                            <p class="card-description">
+                                A fully functional e-commerce web application developed using PHP and MySQL that allows users to browse products, 
+                                add items to cart, and place secure orders. The project includes an admin panel for managing products, users, and 
+                                orders with a responsive and user-friendly interface.
+                            </p>
+                            <div class="features-list">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <ul>
+                                        <li><i class="fas fa-check-circle"></i> User registration and secure login system</li>
+                                        <li><i class="fas fa-check-circle"></i> Product listing and category-based browsing</li>
+                                        <li><i class="fas fa-check-circle"></i> Shopping cart and order placement functionality</li>
+                                        <li><i class="fas fa-check-circle"></i> Admin dashboard to manage products, users, and orders</li>
+                                        <li><i class="fas fa-check-circle"></i> Database connectivity using MySQL & PDO</li>
+                                        <li><i class="fas fa-check-circle"></i> Responsive UI inspired by modern e-commerce websites</li>
+                                    </ul>
+
+
+                                </ul>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>PHP</span>
+                                    <span>Mysql</span>
+                                    <span>XAMPP</span>
+                                    <span>Vs Code</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/projects/online shopping portal.png" alt="online portal">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Subsection -->
+            <div class="subsection">
+                <h3 class="subsection-title">Professional Experience</h3>
+                <div class="cards-container">
+                    <!-- Experience Card 1 -->
+                    
+                    <!-- Experience Card 2 -->
+                    <div class="card">
+                        <div class="card-info">
+                            <h3>Summer Training at Cipher Schools</h3>
+                            <div class="company-details">
+                                <p><i class="fas fa-building"></i> Cipher Schools</p>
+                                <p><i class="fas fa-map-marker-alt"></i> Remote</p>
+                                <p><i class="fas fa-calendar-alt"></i> June 2025 - July 2025</p>
+                            </div>
+                            <div class="features-list">
+                                <h4>Key Learnings:</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Learned MERN Stack (MongoDB, Express.js, React, Node.js)</li>
+                                    <li><i class="fas fa-check-circle"></i> Developed a full stack project – Local Technician Finder</li>
+                                    <li><i class="fas fa-check-circle"></i> Implemented REST APIs and backend logic</li>
+                                    <li><i class="fas fa-check-circle"></i> Worked on frontend UI using HTML, CSS & React</li>
+                                    <li><i class="fas fa-check-circle"></i> Used GitHub for version control and project management</li>
+                                </ul>
+                            </div>
+                            <div class="tech-stack">
+                                <h4>Technologies Used:</h4>
+                                <div class="tech-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Javascript</span>
+                                    <span>Node.js</span>
+                                    <span>React.js</span>
+                                    <span>Express.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/experience/Certificate.png" alt="Cipher Schools Training">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <div class="resume-content">
+            <div class="resume-container">
+                <div class="resume-item left">
+                    <div class="resume-image">
+                        <img src="images/resume/Screenshot.png" alt="Resume">
+                    </div>
+                    <div class="resume-info">
+                        <h3>Resume</h3>
+                        <a href="images/resume/pawan kumar_resume.pdf" class="cta-button" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="resume-item right">
+                    <div class="resume-image">
+                        <img src="images/resume/unstop.png" alt="My CV">
+                    </div>
+                    <div class="resume-info">
+                        <h3>Curriculum Vitae</h3>
+                        <a href="images/resume/Unstop.pdf" class="cta-button" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="imageLightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightboxImage">
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-content">
+            <!-- Software Tools Category -->
+            <div class="skills-category">
+                <h3>Software Tools & Full Stack Development(MERN) Tools</h3>
+                <div class="skill-cards">
+                    <div class="skill-card">
+                        <img src="images/skills/c++.png" alt="c++ Logo">
+                        <h4>c++</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/java.png" alt="java Logo">
+                        <h4>java</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/html5.png" alt="html5 Logo">
+                        <h4>html5</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/javascript.png" alt="javascript Logo">
+                        <h4>javascript</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/bootstrap.jpg" alt="bootstrap Logo">
+                        <h4>bootstrap</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/github.png" alt="github Logo">
+                        <h4>github</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/react.png" alt="react Logo">
+                        <h4>react</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/node js.png" alt="node.js Logo">
+                        <h4>node js</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/express.png" alt="express Logo">
+                        <h4>express</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/Php.png" alt="php Logo">
+                        <h4>php</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/sql.png" alt="sql Logo">
+                        <h4>sql</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/mongodb.png" alt="mongodb Logo">
+                        <h4>mongodb</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Practice Platforms Category -->
+            <div class="skills-category">
+                <h3>Practice Platforms</h3>
+                <div class="skill-cards">
+                    <div class="skill-card">
+                        <img src="images/skills/vs.jpg" alt="vs Logo">
+                        <h4>vs</h4>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- Frameworks Category -->
+            <div class="skills-category">
+                <h3>Frameworks & Languages</h3>
+                <div class="skill-cards">
+                    <div class="skill-card">
+                        <img src="images/skills/html5.png" alt="HTML Logo">
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/skills/css.png" alt="CSS Logo">
+                        <h4>CSS</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <h2>My Certificates</h2>
+        <div class="certificates-grid">
+            <div class="certificate-item" data-category="programming">
+                <div class="certificate-image">
+                    <img src="images/certificates/apna college.png" alt="Complete DSA With Java Certificate">
+                </div>
+                <div class="certificate-info">
+                    <h3>Java With DSA</h3>
+                </div>
+            </div>
+            <div class="certificate-item" data-category="ai">
+                <div class="certificate-image">
+                    <img src="images/certificates/git.png" alt="Introduction to github Certificate">
+                </div>
+                <div class="certificate-info">
+                    <h3>Introduction to github model</h3>
+                </div>
+            </div>
+            <div class="certificate-item" data-category="ai">
+                <div class="certificate-image">
+                    <img src="images/certificates/full stack development.png" alt="Full Stack Development Certificate">
+                </div>
+                <div class="certificate-info">
+                    <h3>Full Stack Development</h3>
+                </div>
+            </div>
+            <div class="certificate-item" data-category="programming">
+                <div class="certificate-image">
+                    <img src="images/certificates/neocoloab.png" alt="c++ Certificate">
+                </div>
+                <div class="certificate-info">
+                    <h3>c++</h3>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Connect with Me Section -->
+    <section class="connect-with-me">
+        <div class="connect-content">
+            <h2>Connect with Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>pawankumar202987@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>+91 9525922370</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
